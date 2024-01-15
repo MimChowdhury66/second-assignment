@@ -1,0 +1,75 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    /* margin: 50px 135px; */
+    padding: 50px 135px;
+}
+
+.nav-title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #424247;
+}
+
+nav li {
+    list-style: none;
+    padding-right: 44px;
+
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav .menu-bar {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    padding: 0;
+
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive styles */
+/* mobile devices */
+@media screen and (max-width:600px) {
+    header {
+        /* padding: 0; */
+    }
+
+    nav .menu-bar {
+        display: block;
+        align-items: center;
+        /* padding: 147px; */
+    }
+
+    nav li {
+        display: none;
+        padding: 0;
+    }
+}
