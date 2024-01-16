@@ -2,10 +2,10 @@ body {
     font-family: 'Mulish', sans-serif;
     margin: 0 auto;
     max-width: 1300px;
+
 }
 
 header {
-    /* margin: 50px 135px; */
     padding: 50px 135px;
 }
 
@@ -127,6 +127,7 @@ nav .menu-bar {
     line-height: normal;
 }
 
+
 /* popular tours style */
 .popular-tour-container {
     margin-top: 100px;
@@ -154,10 +155,9 @@ nav .menu-bar {
     /* 162.5% */
 }
 
-.popular-tour-img {
+.popular-tour-img img {
     /* width: 10px; */
-    
-    height: 550px;
+    height: 90%;
     flex-shrink: 0;
 }
 
@@ -173,20 +173,130 @@ nav .menu-bar {
 }
 
 
+/* destination style */
+.destination-container {
+    margin-top: 100px;
+
+}
+
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.destination-description {
+    margin: 0 auto;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    justify-content: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.destination-img {
+    margin-top: 48px;
+
+}
 
 
 
 
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px;
 
+}
 
+.centered-one {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
 
+}
 
+.centered-two {
+    border-radius: 16px;
+    background: url('Images/Rectangle\ 8.png');
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.centered-three {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 6.png');
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+}
+
+.centered-four {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+}
+
+.centered-five {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+}
+
+.centered-six {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.centered-seven {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.text {
+
+    color: #FFF;
+    padding-top: 132px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 
 /* responsive styles */
 /* mobile devices */
 @media screen and (max-width:600px) {
+    body {
+        padding: 20px;
+    }
+
     header {
-        padding: 50px;
+        /* padding: 50px; */
     }
 
     nav .menu-bar {
@@ -209,5 +319,20 @@ nav .menu-bar {
         font-size: 22px;
     }
 
-    
+    .banner-description {
+        width: 304px;
+    }
+
+    .popular-tour-description {
+        width: 300px;
+    }
+
+    .popular-tour-text li {
+        width: 300px;
+    }
+
+    .popular-tour-img img {
+        width: 100%;
+    }
+
 }
