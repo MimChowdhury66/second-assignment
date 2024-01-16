@@ -205,7 +205,7 @@ nav .menu-bar {
 
 .destination-img {
     margin-top: 48px;
-
+    /* display: flex; */
 }
 
 
@@ -288,6 +288,94 @@ nav .menu-bar {
     line-height: normal;
 }
 
+
+/* choose us style */
+.choose-container {
+    margin-top: 100px;
+}
+
+.choose-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.choose-description {
+    width: 640px;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+    justify-content: center;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.box-container {
+    margin-top: 48px;
+    /* margin: 0 auto; */
+}
+
+.box-row {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+}
+
+.box-one {
+    padding-top: 32px;
+    padding-left: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+}
+
+.box-two {
+    padding-top: 32px;
+    padding-left: 32px;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.box-three {
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-left: 32px;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.box-title {}
+
+.box-detail {
+    width: 486px;
+}
+
+
+
+
+
+
+
+
 /* responsive styles */
 /* mobile devices */
 @media screen and (max-width:600px) {
@@ -310,8 +398,13 @@ nav .menu-bar {
         padding: 0;
     }
 
+    .banner-container {
+        width: 335px;
+    }
+
     .banner-input,
-    .popular-tour-container {
+    .popular-tour-container,
+    .box-row {
         flex-direction: column;
     }
 
@@ -319,9 +412,7 @@ nav .menu-bar {
         font-size: 22px;
     }
 
-    .banner-description {
-        width: 304px;
-    }
+    .banner-description {}
 
     .popular-tour-description {
         width: 300px;
@@ -331,8 +422,49 @@ nav .menu-bar {
         width: 300px;
     }
 
-    .popular-tour-img img {
-        width: 100%;
-    }
+    .popular-tour-img img
+    {
+    width: 100%;
+}
 
+.row {
+    display: block;
+    justify-content: center;
+
+
+}
+
+.centered-one {
+    width: 335px;
+}
+
+.centered-two {
+    width: 335px;
+
+}
+
+.centered-three {
+    width: 335px;
+
+}
+
+.centered-four {
+    width: 335px;
+
+}
+
+.centered-five {
+    width: 335px;
+
+}
+
+.centered-six {
+    width: 335px;
+
+}
+
+.centered-seven {
+    width: 335px;
+
+}
 }
