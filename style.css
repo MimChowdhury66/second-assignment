@@ -487,10 +487,11 @@ nav .menu-bar {
 }
 
 /* clint section design */
-.clint-container{
+.clint-container {
     margin-bottom: 100px;
     margin-top: 0;
 }
+
 .clint-title {
     color: #131318;
     text-align: center;
@@ -514,7 +515,7 @@ nav .menu-bar {
     text-align: center;
     border: 1px solid tomato;
     border-radius: 16px;
-    margin:20px;
+    margin: 20px;
 
 
 }
@@ -594,28 +595,175 @@ nav .menu-bar {
         width: 335px;
     }
 
+    .banner-input {
+        margin: 0 auto;
+    }
+
     .banner-input,
     .popular-tour-container,
-    .box-row {
+    .box-row,
+    .newsletter-container {
         flex-direction: column;
     }
 
     .banner-title {
         font-size: 22px;
+        padding-top: 30px;
     }
 
-    .banner-description {}
+    .banner-description {
+        padding-top: 2px;
+        width: 304px;
+    }
+
+    .popular-tour-title {
+        font-size: 20px;
+
+    }
 
     .popular-tour-description {
         width: 300px;
+        font-size: 14px;
+
     }
 
     .popular-tour-text li {
         width: 300px;
+        font-size: 14px;
+
     }
 
     .popular-tour-img img {
-        width: 100%;
+        width: 335px;
+        height: 342px;
+        padding-top: 24px;
+    }
+
+    .destination-container {
+        margin-top: 24px;
+    }
+
+    .destination-title {
+        font-size: 20px;
+    }
+
+    .destination-description {
+        font-size: 14px;
+        width: 309px;
+    }
+
+    .destination-img {
+        margin-top: 16px;
+    }
+
+    .choose-container {
+        margin-top: 24px;
+    }
+
+    .choose-title {
+        font-size: 20px;
+
+    }
+
+    .choose-description {
+        font-size: 14px;
+        width: 309px;
+    }
+
+    .box-one {
+        width: 335px;
+        height: 289px;
+    }
+
+    .box-two {
+        width: 335px;
+        height: 289px;
+    }
+
+    .box-three {
+        width: 335px;
+        height: 289px;
+        padding-left: 30px;
+    }
+
+    .box-detail {
+        width: 271px;
+        font-size: 14px;
+
+    }
+
+    .newsletter {
+        width: 335px;
+        height: 363px;
+    }
+
+    .newsletter-title {
+        padding-top: 24px;
+        padding-left: 24px;
+        font-size: 20px;
+
+    }
+
+    .newsletter-hr {
+        width: 200px;
+    }
+
+    .newsletter-detail {
+        width: 270px;
+        font-size: 14px;
+
+    }
+
+    .newsletter-input {
+        width: 288px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: 20px;
+        height: 52px;
+    }
+
+    .newsletter-btn {
+        width: 288px;
+        height: 52px;
+        margin-left: 23px;
+    }
+
+    .newsletter-img img {
+        width: 335px;
+        height: 300px;
+    }
+
+    .newsletter-img-badge {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        bottom: 150px;
+        left: 100px;
+        padding: 10px;
+    }
+
+    .newsletter-img-badge h3 {
+        font-size: 21.138px;
+
+    }
+
+    .newsletter-img-badge p {
+        font-size: 15.854px;
+
+    }
+
+    .clint-title {
+        font-size: 20px;
+
+    }
+
+    .clint-row p {
+        font-size: 12px;
+    }
+
+    .clint-row h5 {
+        font-size: 14px;
     }
 
     .row {
@@ -657,5 +805,9 @@ nav .menu-bar {
     .centered-seven {
         width: 335px;
 
+    }
+
+    hr {
+        width: 335px;
     }
 }
