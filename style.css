@@ -89,6 +89,7 @@ nav .menu-bar {
     background: rgba(255, 255, 255, 0.30);
     display: flex;
     justify-content: center;
+
     /* display: inline-flex; */
 
     margin: 48px 106px;
@@ -574,10 +575,20 @@ nav .menu-bar {
 @media screen and (max-width:600px) {
     body {
         padding: 20px;
+        margin: 0;
     }
 
     header {
-        /* padding: 50px; */
+        margin: 0 auto;
+
+    }
+
+    nav {
+        justify-content: flex-start;
+    }
+
+    .nav-title {
+        font-size: 22px;
     }
 
     nav .menu-bar {
@@ -597,6 +608,8 @@ nav .menu-bar {
 
     .banner-input {
         margin: 0 auto;
+        gap: 16px;
+        align-items: center;
     }
 
     .banner-input,
@@ -616,6 +629,15 @@ nav .menu-bar {
         width: 304px;
     }
 
+    .popular-tour-container {
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    .popular-tour-text {
+        text-align: center;
+    }
+
     .popular-tour-title {
         font-size: 20px;
 
@@ -624,6 +646,7 @@ nav .menu-bar {
     .popular-tour-description {
         width: 300px;
         font-size: 14px;
+        text-align: center;
 
     }
 
@@ -684,12 +707,21 @@ nav .menu-bar {
         width: 335px;
         height: 289px;
         padding-left: 30px;
+        margin: 0;
     }
 
     .box-detail {
         width: 271px;
         font-size: 14px;
 
+    }
+
+    .box-row {
+        align-items: center;
+    }
+
+    .clint-description {
+        flex-direction: column;
     }
 
     .newsletter {
@@ -702,6 +734,12 @@ nav .menu-bar {
         padding-left: 24px;
         font-size: 20px;
 
+    }
+
+    .newsletter-container {
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
     }
 
     .newsletter-hr {
@@ -766,10 +804,18 @@ nav .menu-bar {
         font-size: 14px;
     }
 
+    
+    .clint-row {
+        width: 300px;
+        
+    }
+    .clint-description{
+        align-items: center;
+    }
     .row {
-        display: block;
+        display: grid;
+        align-items: center;
         justify-content: center;
-
 
     }
 
@@ -811,3 +857,5 @@ nav .menu-bar {
         width: 335px;
     }
 }
+
+@media screen and (min-width:992px) and (max-width:1300px) {}
