@@ -804,14 +804,16 @@ nav .menu-bar {
         font-size: 14px;
     }
 
-    
+
     .clint-row {
         width: 300px;
-        
+
     }
-    .clint-description{
+
+    .clint-description {
         align-items: center;
     }
+
     .row {
         display: grid;
         align-items: center;
@@ -858,4 +860,396 @@ nav .menu-bar {
     }
 }
 
-@media screen and (min-width:992px) and (max-width:1300px) {}
+@media screen and (min-width:601px) and (max-width:990px) {
+    body {
+        padding: 20px;
+        margin: 0;
+    }
+
+    header {
+        margin: 0 auto;
+
+    }
+
+    nav {
+        justify-content: flex-start;
+    }
+
+    .nav-title {
+        font-size: 22px;
+    }
+
+    nav .menu-bar {
+        display: block;
+        align-items: center;
+        /* padding: 147px; */
+    }
+
+    nav li {
+        display: none;
+        padding: 0;
+    }
+
+    .banner-container {
+        width: 335px;
+    }
+
+    .banner-input {
+        margin: 0 auto;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .banner-input,
+    .popular-tour-container,
+    .box-row,
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    .banner-title {
+        font-size: 22px;
+        padding-top: 30px;
+    }
+
+    .banner-description {
+        padding-top: 2px;
+        width: 304px;
+    }
+
+    .popular-tour-container {
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    .popular-tour-text {
+        text-align: center;
+    }
+
+    .popular-tour-title {
+        font-size: 20px;
+
+    }
+
+    .popular-tour-description {
+        width: 300px;
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    .popular-tour-text li {
+        width: 300px;
+        font-size: 14px;
+
+    }
+
+    .popular-tour-img img {
+        width: 335px;
+        height: 342px;
+        padding-top: 24px;
+    }
+
+    .destination-container {
+        margin-top: 24px;
+    }
+
+    .destination-title {
+        font-size: 20px;
+    }
+
+    .destination-description {
+        font-size: 14px;
+        width: 309px;
+    }
+
+    .destination-img {
+        margin-top: 16px;
+    }
+
+    .choose-container {
+        margin-top: 24px;
+    }
+
+    .choose-title {
+        font-size: 20px;
+
+    }
+
+    .choose-description {
+        font-size: 14px;
+        width: 309px;
+    }
+
+    .box-one {
+        width: 335px;
+        height: 289px;
+    }
+
+    .box-two {
+        width: 335px;
+        height: 289px;
+    }
+
+    .box-three {
+        width: 335px;
+        height: 289px;
+        padding-left: 30px;
+        margin: 0;
+    }
+
+    .box-detail {
+        width: 271px;
+        font-size: 14px;
+
+    }
+
+    .box-row {
+        align-items: center;
+    }
+
+    .clint-description {
+        flex-direction: column;
+    }
+
+    .newsletter {
+        width: 335px;
+        height: 363px;
+    }
+
+    .newsletter-title {
+        padding-top: 24px;
+        padding-left: 24px;
+        font-size: 20px;
+
+    }
+
+    .newsletter-container {
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+    }
+
+    .newsletter-hr {
+        width: 200px;
+    }
+
+    .newsletter-detail {
+        width: 270px;
+        font-size: 14px;
+
+    }
+
+    .newsletter-input {
+        width: 288px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: 20px;
+        height: 52px;
+    }
+
+    .newsletter-btn {
+        width: 288px;
+        height: 52px;
+        margin-left: 23px;
+    }
+
+    .newsletter-img img {
+        width: 335px;
+        height: 300px;
+    }
+
+    .newsletter-img-badge {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        bottom: 150px;
+        left: 100px;
+        padding: 10px;
+    }
+
+    .newsletter-img-badge h3 {
+        font-size: 21.138px;
+
+    }
+
+    .newsletter-img-badge p {
+        font-size: 15.854px;
+
+    }
+
+    .clint-title {
+        font-size: 20px;
+
+    }
+
+    .clint-row p {
+        font-size: 12px;
+    }
+
+    .clint-row h5 {
+        font-size: 14px;
+    }
+
+
+    .clint-row {
+        width: 300px;
+
+    }
+
+    .clint-description {
+        align-items: center;
+    }
+
+    .row {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .centered-one {
+        width: 335px;
+    }
+
+    .centered-two {
+        width: 335px;
+
+    }
+
+    .centered-three {
+        width: 335px;
+
+    }
+
+    .centered-four {
+        width: 335px;
+
+    }
+
+    .centered-five {
+        width: 335px;
+
+    }
+
+    .centered-six {
+        width: 335px;
+
+    }
+
+    .centered-seven {
+        width: 335px;
+
+    }
+
+    hr {
+        width: 335px;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1400px) {
+    .banner-input {
+        gap: 6px;
+    }
+
+    .popular-tour-img img {
+        width: 500px;
+    }
+
+    .popular-tour-title {
+        font-size: 15px;
+    }
+
+    .popular-tour-text li {
+        width: 300px;
+    }
+
+    .popular-tour-description {
+        width: 300px;
+    }
+
+    .popular-tour-container {
+        justify-content: flex-start;
+    }
+
+    .centered-one {
+        width: 400px;
+    }
+
+    .centered-two {
+        width: 400px;
+    }
+
+    .centered-three {
+        width: 250px;
+    }
+
+    .centered-four {
+        width: 250px;
+
+    }
+
+    .centered-five {
+        width: 250px;
+    }
+
+    .centered-six {
+        width: 400px;
+    }
+
+    .centered-seven {
+        width: 400px;
+    }
+
+    .box-detail {
+        width: 300px;
+    }
+
+    .box-one {
+        width: 400px;
+    }
+
+    .box-two {
+        width: 400px;
+    }
+
+    .box-three {
+        width: 400px;
+    }
+
+    .newsletter {
+        width: 300px;
+    }
+
+    .newsletter-detail {
+        width: 200px;
+    }
+
+    .newsletter-input {
+        width: 200px;
+        margin-top: 0;
+    }
+
+    .newsletter-btn {
+        width: 200px;
+    }
+
+    .newsletter-img img {
+        width: 500px;
+    }
+
+    .newsletter-img-badge {
+        left: 170px;
+        padding: 0;
+        bottom: 170px;
+    }
+
+    .newsletter-img-badge p {
+        font-size: 10px;
+    }
+
+    .newsletter-img-badge h3 {
+        font-size: 14px;
+    }
+}
